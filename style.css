@@ -1,4 +1,51 @@
-h1{
-    color: red;
+
+*{
+    
 }
-kd
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+}
+h1{
+    font-size: 50px;
+    
+}
+.orange-color{
+    color: orange;
+    
+
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.none{
+    text-decoration: none;
+    font-size: large;
+    border: 2px solid rgb(224, 141, 45);
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white ;
+    background-color: tomato;
+    border-radius: 10%;
+    margin: 0 20px 0 10px;
+
+}
+.none:hover{
+    color: black;
+    background-color: linear-gradient(tomato , red)
+   
+}
+.background{
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+}
